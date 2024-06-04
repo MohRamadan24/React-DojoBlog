@@ -7,7 +7,7 @@ const Home = () => {
     const [isPending, setIsPending] = useState(true);
 
     useEffect(() => {
-        fetch('http://localhost:8000/blogs')
+        fetch('https://react-dojo-blog-q7oh.vercel.app/blogs')
             .then(res => {
                 return res.json();
             })
